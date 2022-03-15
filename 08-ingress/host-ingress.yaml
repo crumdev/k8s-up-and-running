@@ -12,15 +12,3 @@ spec:
       - backend:
           serviceName: alpaca
           servicePort: 8080
-  - host: bandicoot.example.com
-    http:
-      paths:
-      - backend:
-          serviceName: bandicoot
-          servicePort: 8080
-  - host: be-default.example.com
-    http:
-      paths:
-      - backend:
-          serviceName: be-default
-          servicePort: 8080
